@@ -1,0 +1,114 @@
+{
+    "contentType": "application\/JSON",
+    "nit": "06142903851130",
+    "activo": true,
+    "passwordPri": "DISTRIBUIDORAILOPANGO25",
+    "dteJson": {
+        "identificacion": {
+            "version": 1,
+            "ambiente": "01",
+            "tipoDte": "01",
+            "numeroControl": "DTE-01-S001P001-000000000000001",
+            "codigoGeneracion": "38AAF056-D159-D4E0-AE3A-C78975677720",
+            "tipoModelo": 1,
+            "tipoOperacion": 1,
+            "tipoContingencia": null,
+            "motivoContin": null,
+            "fecEmi": "2025-04-05",
+            "horEmi": "15:12:21",
+            "tipoMoneda": "USD"
+        },
+        "emisor": {
+            "nit": "06142903851130",
+            "nrc": "2006635",
+            "nombre": "RUBEN ABINOAM RIVAS AGUILAR",
+            "codActividad": "45100",
+            "descActividad": "Venta de vehículos automotores",
+            "nombreComercial": null,
+            "tipoEstablecimiento": "01",
+            "direccion": {
+                "departamento": "06",
+                "municipio": "22",
+                "complemento": "PJS N, COL. LAS CAÑAS, # 286"
+            },
+            "telefono": "00000000",
+            "codEstable": null,
+            "codEstableMH": null,
+            "codPuntoVentaMH": null,
+            "codPuntoVenta": null,
+            "correo": "rrivas2@hotmail.com"
+        },
+        "receptor": {
+            "tipoDocumento": "13",
+            "numDocumento": "00000000-0",
+            "nrc": null,
+            "nombre": "Cliente genérico",
+            "codActividad": null,
+            "descActividad": null,
+            "direccion": {
+                "departamento": "06",
+                "municipio": "23",
+                "complemento": "Por ahi"
+            },
+            "telefono": "00000000",
+            "correo": "cliente@gmail.com"
+        },
+        "otrosDocumentos": null,
+        "documentoRelacionado": null,
+        "ventaTercero": null,
+        "cuerpoDocumento": [
+            {
+                "numItem": 1,
+                "tipoItem": 1,
+                "numeroDocumento": null,
+                "cantidad": 1,
+                "codigo": "1111",
+                "codTributo": null,
+                "uniMedida": 59,
+                "descripcion": "Producto de ejemplo",
+                "precioUni": 7.91,
+                "montoDescu": 0,
+                "tributos": null,
+                "psv": 0,
+                "noGravado": 0,
+                "ivaItem": 0.91,
+                "ventaNoSuj": 0,
+                "ventaExenta": 0,
+                "ventaGravada": 7.91
+            }
+        ],
+        "resumen": {
+            "totalNoSuj": 0,
+            "totalExenta": 0,
+            "totalGravada": 7.91,
+            "subTotalVentas": 7.91,
+            "descuNoSuj": 0,
+            "descuExenta": 0,
+            "descuGravada": 0,
+            "porcentajeDescuento": 0,
+            "totalDescu": 0,
+            "tributos": null,
+            "subTotal": 7.91,
+            "ivaRete1": 0,
+            "reteRenta": 0,
+            "montoTotalOperacion": 7.91,
+            "totalNoGravado": 0,
+            "totalPagar": 7.91,
+            "totalLetras": "SIETE 91\/100",
+            "totalIva": 0.91,
+            "saldoFavor": 0,
+            "condicionOperacion": 1,
+            "pagos": null,
+            "numPagoElectronico": null
+        },
+        "extension": {
+            "nombEntrega": null,
+            "docuEntrega": null,
+            "nombRecibe": null,
+            "docuRecibe": null,
+            "observaciones": null,
+            "placaVehiculo": null
+        },
+        "apendice": null
+    }
+}
