@@ -35,39 +35,7 @@ if ($horaActual === $horaProgramada1 || $horaActual === $horaProgramada2 || $hor
       // Genera el nombre del nuevo archivo de respaldo
       $nombreArchivo = $directorioRespaldo . $nombreBaseDatos . '_backup_' . date("Y-m-d_H-i-s") . '.sql';
   
-      // Crear la copia de seguridad
-      try {
-          $pdo = new PDO("mysql:host=$host;dbname=$nombreBaseDatos", $usuario, $password);
-          $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-          $pdo->exec("SET NAMES utf8");
-  
-          // Genera el contenido del archivo de respaldo
-          $salidaSQL = "";
-          $tablas = $pdo->query("SHOW TABLES");
-  
-          foreach ($tablas as $fila) {
-              $tabla = $fila[0];
-              $estructura = $pdo->query("SHOW CREATE TABLE $tabla")->fetch(PDO::FETCH_ASSOC);
-              $salidaSQL .= "\n\n" . $estructura['Create Table'] . ";\n\n";
-              $datos = $pdo->query("SELECT * FROM $tabla");
-  
-              foreach ($datos as $filaDatos) {
-                  $salidaSQL .= "INSERT INTO $tabla VALUES(";
-                  foreach ($filaDatos as $dato) {
-                      $salidaSQL .= $pdo->quote($dato) . ', ';
-                  }
-                  $salidaSQL = rtrim($salidaSQL, ', ') . ");\n";
-              }
-          }
-  
-          // Guarda el archivo de respaldo
-          file_put_contents($nombreArchivo, $salidaSQL);
-  
-          
-  
-      } catch (PDOException $e) {
-          
-      }
+
 }
   
 ?>

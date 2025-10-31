@@ -13,6 +13,8 @@ session_start();
 
 class AjaxFacturas {
 
+    
+
     /*=============================================
 	SELLAR FACTURA
 	=============================================*/	
@@ -7714,13 +7716,14 @@ class AjaxFacturas {
 	=============================================*/	
 
     public function iniciarSesionMh() {
+        
         // URL de la API a la que quieres enviar el POST
-        $url = 'https://api.dtes.mh.gob.sv/seguridad/auth'; // Cambia esto a la URL de tu API
+        $url = 'https://api.dtes.mh.gob.sv/seguridad/auth';
     
         // Datos en formato x-www-form-urlencoded
         $data = [
-            'user' => '06142903851130',
-            'pwd' => 'DISTRIBUIDORAILOPANGO25_'
+            'user' => '06143107201022',
+            'pwd' => 'Farkas2025_'
         ];
         
         // Convertimos los datos a formato x-www-form-urlencoded

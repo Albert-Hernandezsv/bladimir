@@ -1,114 +1,109 @@
 {
     "contentType": "application\/JSON",
-    "nit": "06142903851130",
+    "nit": "06143107201022",
     "activo": true,
-    "passwordPri": "DISTRIBUIDORAILOPANGO25",
+    "passwordPri": "Farkas2025_",
     "dteJson": {
         "identificacion": {
-            "version": 1,
-            "ambiente": "01",
-            "tipoDte": "01",
-            "numeroControl": "DTE-01-S001P001-000000000000001",
-            "codigoGeneracion": "38AAF056-D159-D4E0-AE3A-C78975677720",
+            "version": 3,
+            "ambiente": "00",
+            "tipoDte": "06",
+            "numeroControl": "DTE-06-S001P001-000000000000392",
+            "codigoGeneracion": "62D871D8-DBC9-1D50-D818-EB50A181FB01",
             "tipoModelo": 1,
             "tipoOperacion": 1,
             "tipoContingencia": null,
             "motivoContin": null,
-            "fecEmi": "2025-04-05",
-            "horEmi": "15:12:21",
+            "fecEmi": "2025-10-29",
+            "horEmi": "14:27:25",
             "tipoMoneda": "USD"
         },
+        "documentoRelacionado": [
+            {
+                "tipoDocumento": "03",
+                "tipoGeneracion": 2,
+                "numeroDocumento": "532A660A-7C7E-7D18-FAED-8BC67239E87C",
+                "fechaEmision": "2025-10-29"
+            }
+        ],
         "emisor": {
-            "nit": "06142903851130",
-            "nrc": "2006635",
-            "nombre": "RUBEN ABINOAM RIVAS AGUILAR",
+            "nit": "06143107201022",
+            "nrc": "2922569",
+            "nombre": "FARKAS IMPORTADORA, SOCIEDAD ANONIMA DE CAPITAL VARIABLE",
             "codActividad": "45100",
             "descActividad": "Venta de vehículos automotores",
             "nombreComercial": null,
-            "tipoEstablecimiento": "01",
+            "tipoEstablecimiento": "02",
             "direccion": {
                 "departamento": "06",
                 "municipio": "22",
-                "complemento": "PJS N, COL. LAS CAÑAS, # 286"
+                "complemento": "Cojutepeque"
             },
-            "telefono": "00000000",
-            "codEstable": null,
-            "codEstableMH": null,
-            "codPuntoVentaMH": null,
-            "codPuntoVenta": null,
-            "correo": "rrivas2@hotmail.com"
+            "telefono": "6999-5068",
+            "correo": "correo@gmail.com"
         },
         "receptor": {
-            "tipoDocumento": "13",
-            "numDocumento": "00000000-0",
-            "nrc": null,
-            "nombre": "Cliente genérico",
-            "codActividad": null,
-            "descActividad": null,
+            "nrc": "2484763",
+            "nit": "06140103161043",
+            "nombre": "BEST BUY GARMENT SUPPLY, S.A. DE C.V.",
+            "codActividad": "46613",
+            "descActividad": "Venta al por mayor de lubricantes. grasas y otros aceites para automotores, maquinaria industrial. etc.",
+            "nombreComercial": null,
             "direccion": {
                 "departamento": "06",
-                "municipio": "23",
-                "complemento": "Por ahi"
+                "municipio": "22",
+                "complemento": "BLVD. DEL EJERCITO, KM. 5.1\/2. BODEGA 2"
             },
-            "telefono": "00000000",
-            "correo": "cliente@gmail.com"
+            "telefono": "2227-6872",
+            "correo": "facturacion.bestbuy@gmail.com"
         },
-        "otrosDocumentos": null,
-        "documentoRelacionado": null,
         "ventaTercero": null,
         "cuerpoDocumento": [
             {
                 "numItem": 1,
                 "tipoItem": 1,
-                "numeroDocumento": null,
-                "cantidad": 1,
-                "codigo": "1111",
+                "numeroDocumento": "532A660A-7C7E-7D18-FAED-8BC67239E87C",
+                "codigo": "R32",
                 "codTributo": null,
-                "uniMedida": 59,
-                "descripcion": "Producto de ejemplo",
-                "precioUni": 7.91,
+                "descripcion": "GALÓN DE ACEITE CRISTALINO #32",
+                "cantidad": 1,
+                "uniMedida": 34,
+                "precioUni": 0.1,
                 "montoDescu": 0,
-                "tributos": null,
-                "psv": 0,
-                "noGravado": 0,
-                "ivaItem": 0.91,
                 "ventaNoSuj": 0,
                 "ventaExenta": 0,
-                "ventaGravada": 7.91
+                "ventaGravada": 0.1,
+                "tributos": [
+                    "20"
+                ]
             }
         ],
         "resumen": {
             "totalNoSuj": 0,
             "totalExenta": 0,
-            "totalGravada": 7.91,
-            "subTotalVentas": 7.91,
+            "totalGravada": 0.1,
+            "subTotalVentas": 0.1,
             "descuNoSuj": 0,
             "descuExenta": 0,
             "descuGravada": 0,
-            "porcentajeDescuento": 0,
             "totalDescu": 0,
-            "tributos": null,
-            "subTotal": 7.91,
+            "tributos": [
+                {
+                    "codigo": "20",
+                    "descripcion": "Impuesto al Valor Agregado 13%",
+                    "valor": 0.01
+                }
+            ],
+            "subTotal": 0.1,
+            "ivaPerci1": 0,
             "ivaRete1": 0,
             "reteRenta": 0,
-            "montoTotalOperacion": 7.91,
-            "totalNoGravado": 0,
-            "totalPagar": 7.91,
-            "totalLetras": "SIETE 91\/100",
-            "totalIva": 0.91,
-            "saldoFavor": 0,
+            "montoTotalOperacion": 0.11,
+            "totalLetras": "CERO 10\/100",
             "condicionOperacion": 1,
-            "pagos": null,
             "numPagoElectronico": null
         },
-        "extension": {
-            "nombEntrega": null,
-            "docuEntrega": null,
-            "nombRecibe": null,
-            "docuRecibe": null,
-            "observaciones": null,
-            "placaVehiculo": null
-        },
+        "extension": null,
         "apendice": null
     }
 }

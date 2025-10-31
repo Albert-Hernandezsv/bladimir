@@ -1241,7 +1241,7 @@ class ControladorFacturas{
 				$estado = "Activa";
 
 				$granContribuyente = "No";
-				if($_POST["granContribuyente"]){
+				if(isset($_POST["granContribuyente"])){
 					$granContribuyente = $_POST["granContribuyente"];
 				}
 
@@ -1270,6 +1270,9 @@ class ControladorFacturas{
 							   "seguro" => $seguro,
 							   "flete" => $flete,
 							   "idMotorista" => $idMotorista,
+							   "orden_compra" => "",
+							   "incoterm" => "",
+							   "origen" => "",
 
 							   "idFacturaRelacionada" => $idFacturaRelacionada,
 							   "notaRemision" => $notaRemi,
@@ -1342,7 +1345,7 @@ class ControladorFacturas{
 						$valor2 = $producto["idProducto"];
 				
 						$respuesta = ModeloProductos::mdlActualizarProducto($tabla, $item1, $valor1, $item2, $valor2);
-						if($producto["peso"]){
+						if(isset($producto["peso"])){
 							$pesoNuevo = $producto["peso"];
 
 							$tabla = "inventario";
